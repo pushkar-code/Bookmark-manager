@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    padding: 20px;
+    box-shadow:  10px 5px 5px rgb(202, 200, 200);
+}
+
+.form{
+    font-size: large;
+    height:40px;
+    width:300px;
+}
+
+li{
+    list-style: none;
+}
+
+.container2{
+    display: flex;
+    width: 300px;
+    height:70px;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+    box-shadow:  10px 5px 5px rgb(202, 200, 200);
+}
+
+.container2 button{
+    position: absolute;
+    left:187px;
+    top:15px;
+}
+
+.container2 a{
+    position: absolute;
+    font-style: none;
+    color:black;
+    font-size:30px;
+    left: 20px;
+    top:9px;
+}
